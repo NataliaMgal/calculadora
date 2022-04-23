@@ -19,5 +19,5 @@ class Calculadora:
     def numero2(self, numero2):
         self.__numero2=numero2
     
-    def suma(self):
-        return self.numero1()+self.numero2()
+    def suma(self, n1, n2):
+        return n1 + n2
